@@ -2030,3 +2030,13 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+#preloader {
+  background: #000 url('../loader.gif') no-repeat center center;
+  background-size: 7%;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+
+}

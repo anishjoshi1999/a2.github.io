@@ -31,6 +31,9 @@
 </head>
 
 <body>
+  <div id="preloader">
+
+  </div>
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
@@ -639,7 +642,12 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script>
+    var loader = document.getElementById("preloader")
+    window.addEventListener("load", function () {
+      loader.style.display = "none"
+    })
+  </script>
 </body>
 
 </html>
