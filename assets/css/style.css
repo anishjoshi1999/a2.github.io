@@ -518,6 +518,7 @@ section {
 @media (min-width: 1024px) {
   .section-title p {
     width: 50%;
+    letter-spacing: 0.2em;
   }
 }
 
