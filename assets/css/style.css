@@ -353,23 +353,20 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background-image:
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
-    url('../img/hero-bg.jpg');
-  /* background: url("") top center; */
+  background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
 }
 
-/* #hero:before {
+#hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
-} */
+}
 
 #hero .hero-container {
   position: absolute;
@@ -506,6 +503,10 @@ section {
   margin-right: -0.25em;
 }
 
+.golden {
+  color: #CEA238;
+}
+
 .section-title h3 span {
   color: #CEA238;
 }
@@ -518,7 +519,6 @@ section {
 @media (min-width: 1024px) {
   .section-title p {
     width: 50%;
-    letter-spacing: 0.2em;
   }
 }
 
@@ -2030,14 +2030,4 @@ section {
   background: #d01d3f;
   color: #fff;
   text-decoration: none;
-}
-
-#preloader {
-  background: #000 url('../loader.gif') no-repeat center center;
-  background-size: 7%;
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  z-index: 1000;
-
 }
